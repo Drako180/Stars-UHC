@@ -1,0 +1,52 @@
+# Compiled files
+*.jar
+*.class
+target/
+*.jar
+
+# Logs
+*.log
+logs/
+server/*/logs/
+
+# IDE
+.idea/
+.vscode/
+*.iml
+
+# Server files (data)
+server/*/world/
+server/*/world_nether/
+server/*/world_the_end/
+server/*/crash-reports/
+server/*/cache/
+server/*/usercache.json
+server/*/banned-ips.json
+server/*/banned-players.json
+server/*/ops.json
+server/*/whitelist.json
+
+# Build files
+.DS_Store
+*.zip
+build/
+dist/
+
+# JetBrains
+*.swp
+*.swo
+*~
+
+# Maven
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+
+# Gradle
+.gradle/
+build/
+*.gradle
