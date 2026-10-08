@@ -42,9 +42,6 @@ forwarding-secret-file = "forwarding.secret"
 
 # Announce whether or not your server supports Forge. If you run a modded server, we
 # suggest turning this on.
-# 
-# If your network runs one modpack consistently, consider using ping-passthrough = true
-# instead for a nicer display in the server list.
 announce-forge = false
 
 # If enabled (default is false) and the proxy is in online mode, Velocity will kick
@@ -53,7 +50,6 @@ kick-existing-players = false
 
 # If enabled (default is false), then a sample of the online players on the proxy will be visible
 # when hovering over the player count in the server list.
-# This doesn't have any effect when ping passthrough is set to either "description" or "all".
 sample-players-in-ping = false
 
 # If not enabled (default is true) player IP addresses will be replaced by <ip address withheld> in logs
